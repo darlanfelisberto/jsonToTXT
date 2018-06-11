@@ -1,0 +1,7 @@
+items.date|items.area|items.statuses.category|items.statuses.bookingStatus.state|items.statuses.bookingStatus.closedAt|items.statuses.timeFrom|items.statuses.timeTo
+2018-04-24|BK01|||||
+2018-04-24 BK02|BK02|CLASSE1|closed|2018-04-24 11:00:24|08:00|12:00
+2018-04-24 BK03|BK03|||hora campo||
+2018-04-24|BK04|||||
+2018-04-24 GBH|GBH - Todas as Áreas|||||12:00
+
