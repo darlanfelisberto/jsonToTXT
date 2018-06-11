@@ -3,7 +3,10 @@ package jsonToTXT;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.InputStream;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -304,9 +307,15 @@ public class JSONFlattener {
 		return s.toString();
 	}
 	
-    public static StringBuilder dataBaseFormat(List<Linha>  lista) {
+    public static StringBuilder dataBaseFormat(List<Linha>  lista,File arquivo) throws IOException {
+		StringBuilder s = null;
+		StringBuilder cabecalho = new StringBuilder();
+    	for (String string : keys) {
+    		cabecalho.append(string);
+    		cabecalho.append("|");
+		}
+    	s =new StringBuilder(cabecalho.substring(0, cabecalho.length()-1)+"\n");
 		Iterator<Linha> it = lista.iterator();
-		StringBuilder s = new StringBuilder();
 		for (int i = 0; it.hasNext(); i++) {
 			Linha linha = it.next();
 			s.append(linha.getValue());
@@ -317,6 +326,12 @@ public class JSONFlattener {
 				s.append("|");
 			}
 		}
+		FileWriter grava = new FileWriter(arquivo);
+        PrintWriter escreve = new PrintWriter(grava);
+        escreve.println(s);
+        escreve.close();
+        grava.close();
+        
 		return s;
 	}
 }

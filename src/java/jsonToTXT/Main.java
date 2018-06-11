@@ -1,5 +1,6 @@
 package jsonToTXT;
 
+import java.io.File;
 import java.util.List;
 
 public class Main {
@@ -10,10 +11,10 @@ public class Main {
 		try {
 			List<Linha> l = null;
 			l = JSONFlattener.parseJson("arquivos\\PAINEL_DE_COTAS_01.json",ColunasJson.PAINEL_COTAS_01);
-			System.out.println(JSONFlattener.dataBaseFormat(l));
+			System.out.println(JSONFlattener.dataBaseFormat(l,new File("arquivos\\PAINEL_COTAS_01.txt")));
 //			l = JSONFlattener.parseJson("C:\\Users\\darlan\\eclipse-workspace\\jsonToTXT\\arquivos\\PAINEL_DE_COTAS_02.json",ColunasJson.PAINEL_COTAS_02);
 			l = JSONFlattener.parseJson("arquivos\\PAINEL_DE_COTAS_03.json",ColunasJson.PAINEL_COTAS_03);
-			System.out.println(JSONFlattener.dataBaseFormat(l));
+			System.out.println(JSONFlattener.dataBaseFormat(l,new File("arquivos\\PAINEL_COTAS_03.txt")));
 //			JSONFlattener.parseJson("C:\\Users\\darlan\\eclipse-workspace\\jsonToTXT\\arquivos\\PAINEL_DE_COTAS_05.json",ColunasJson.PAINEL_COTAS_04);
 //			new JsonToTexto("arquivos/PAINEL_DE_COTAS_01.json", ColunasJson.PAINEL_COTAS_01);//.incia();
 		} catch (Exception e) {
