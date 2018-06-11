@@ -1,0 +1,216 @@
+{
+    "info": {
+        "owner": "Daniel Ribeiro"
+    },
+    "items": [
+        {
+            "date": "2018-04-24",
+            "areas": [
+                {
+                    "label": "BK01",
+                    "calendar": {
+                        "count": [
+                            25
+                        ],
+                        "minutes":"sda"
+                    },
+                    "available": [
+                        {
+                        "count": [
+                                0
+                            ],
+                            "minutes": "minutesBK01"
+                        }
+                    ],
+                    "categories": [
+                        {
+                            "label": "CLASSE1_BK01",
+                            "calendar": {
+                                "count": [
+                                    0
+                                ]
+                            },
+                            "available": [
+		                        {
+		                        "count": [
+		                                60
+		                            ],
+		                            "minutes": "minutesBK01"
+		                        }
+		                    ]
+                            
+                        },
+                        {
+                            "label": "CLASSE2_BK01",
+                            "calendar": {
+                                "count": [
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "label": "CLASSE2_PME_BK01",
+                            "calendar": {
+                                "count": [
+                                    0
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "BK02",
+                    "calendar": {
+                        "count": [
+                            0
+                        ]
+                    },
+                    "categories": [
+                        {
+                            "label": "CLASSE1_BK02",
+                            "calendar": {
+                                "count": [
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "label": "CLASSE2_BK02",
+                            "calendar": {
+                                "count": [
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "label": "CLASSE2_PME_BK02",
+                            "calendar": {
+                                "count": [
+                                    0
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "BK03",
+                    "calendar": {
+                        "count": [
+                            0
+                        ]
+                    },
+                    "categories": [
+                        {
+                            "label": "CLASSE1_BK03",
+                            "calendar": {
+                                "count": [
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "label": "CLASSE2_BK03",
+                            "calendar": {
+                                "count": [
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "label": "CLASSE2_PME_BK03",
+                            "calendar": {
+                                "count": [
+                                    0
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "BK04",
+                    "calendar": {
+                        "count": [
+                            0
+                        ]
+                    },
+                    "categories": [
+                        {
+                            "label": "CLASSE1_BK04",
+                            "calendar": {
+                                "count": [
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "label": "CLASSE2_BK04",
+                            "calendar": {
+                                "count": [
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "label": "CLASSE2_PME_BK04",
+                            "calendar": {
+                                "count": [
+                                    0
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "GBH - Todas as \u00c1reas",
+                    "calendar": {
+                        "count": [
+                            0
+                        ]
+                    },
+                    "categories": [
+                        {
+                            "label": "CLASSE1_GBH",
+                            "calendar": {
+                                "count": [
+                                    1
+                                ]
+                            }
+                        },
+                        {
+                            "label": "CLASSE2_GBH",
+                            "calendar": {
+                                "count": [
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "label": "CLASSE3_GBH",
+                            "calendar": {
+                                "count": [
+                                    0
+                                ]
+                            },
+                            "available": [
+		                        {
+		                        "count": [
+		                                60
+		                            ],
+		                            "minutes": " cat 6"
+		                        }
+		                    ]
+                        },
+                        {
+                            "label": "CLASSE6_GBH",
+                            "calendar": {
+                                "count": [
+                                    0
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

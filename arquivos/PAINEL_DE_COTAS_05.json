@@ -1,0 +1,118 @@
+{
+    "items": [
+        {
+            "date": "2018-04-24",
+            "areas": [
+                {
+                    "label": "BK01",
+                    "categories": [
+                        {
+                            "label": "CLASSE1"
+                        },
+                        {
+                            "label": "CLASSE2"
+                        },
+                        {
+                            "label": "CLASSE2_PME"
+                        },
+                        {
+                            "label": "CLASSE5"
+                        },
+                        {
+                            "label": "CLASSE5_PME"
+                        }
+                    ]
+                },
+                {
+                    "label": "BK02",
+                    "categories": [
+                        {
+                            "label": "CLASSE5"
+                        },
+                        {
+                            "label": "CLASSE5_PME"
+                        }
+                    ]
+                },
+                {
+                    "label": "BK03",
+                    "categories": [
+                        {
+                            "label": "CLASSE1"
+                        },
+                        {
+                            "label": "CLASSE2"
+                        },
+                        {
+                            "label": "CLASSE2_PME"
+                        }
+                    ]
+                },
+                {
+                    "label": "BK04",
+                    "categories": [
+                        {
+                            "label": "CLASSE1"
+                        },
+                        {
+                            "label": "CLASSE2"
+                        },
+                        {
+                            "label": "CLASSE3"
+                        },
+                        {
+                            "label": "CLASSE2_PME"
+                        },
+                        {
+                            "label": "CLASSE4"
+                        },
+                        {
+                            "label": "CLASSE4_PME"
+                        },
+                        {
+                            "label": "CLASSE5"
+                        },
+                        {
+                            "label": "CLASSE5_PME"
+                        },
+                        {
+                            "label": "CLASSE8"
+                        }
+                    ]
+                },
+                {
+                    "label": "GBH - Todas as \u00c1reas",
+                    "categories": [
+                        {
+                            "label": "CLASSE1"
+                        },
+                        {
+                            "label": "CLASSE2"
+                        },
+                        {
+                            "label": "CLASSE3"
+                        },
+                        {
+                            "label": "CLASSE2_PME"
+                        },
+                        {
+                            "label": "CLASSE4"
+                        },
+                        {
+                            "label": "CLASSE4_PME"
+                        },
+                        {
+                            "label": "CLASSE5"
+                        },
+                        {
+                            "label": "CLASSE5_PME"
+                        },
+                        {
+                            "label": "CLASSE8"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "items": [
+        {
+            "area": "BK02",
+            "category": "CLASSE1",
+            "startTime": "8:00",
+            "endTime": "12:00",
+            "closeTime": "11:00:00"
+        }
+    ]
+}

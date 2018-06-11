@@ -1,0 +1,47 @@
+{
+    "items": [
+        {
+            "date": "2018-04-24",
+            "area": "BK01",
+            "statuses": []
+        },
+        {
+            "date": "2018-04-24 BK02",
+            "area": "BK02",
+            "statuses": [
+                {
+                    "category": "CLASSE1",
+                    "bookingStatus": {
+                        "state": "closed",
+                        "closedAt": "2018-04-24 11:00:24"
+                    },
+                    "timeFrom": "08:00",
+                    "timeTo": "12:00"
+                }
+            ]
+        },
+        {
+            "date": "2018-04-24 BK03",
+            "area": "BK03",
+            "statuses": [
+                {
+                    "bookingStatus": {
+                        "closedAt": "hora campo"
+                    }
+                }
+            ]
+        },
+        {
+            "date": "2018-04-24",
+            "area": "BK04",
+            "statuses": []
+        },
+        {
+            "date": "2018-04-24 GBH",
+            "area": "GBH - Todas as \u00c1reas",
+            "statuses": [{
+            	"timeTo": "12:00"
+            }]
+        }
+    ]
+}
