@@ -1,6 +1,6 @@
 # jsonToTXT
 
-Apartir de um arquivo json com uma sem estrutura fixa, cria uma uma string no formato para inserção em banco de dados, com todos os campos predefinidos.
+A partir de um arquivo json com uma sem estrutura fixa, cria uma uma string no formato para inserção em banco de dados, com todos os campos predefinidos.
 ex:
 
 2018-04-24|BK01|||||</br>
